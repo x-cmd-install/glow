@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.0.0"
   latestRelease: "v3.0.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:27:19Z
+  collectedAt: 2026-09-10T22:32:05Z
 timeline:
   created: 2019-11-04
   lastCommit: 2026-09-01
@@ -84,7 +84,7 @@ total:
   commit: 874
 ---
 path: /home/runner/.x-repo/github.com/charmbracelet/glow
-collectedAt: 2026-09-10T21:27:20Z
+collectedAt: 2026-09-10T22:32:06Z
 loc:
   Go:
     code: 2733
