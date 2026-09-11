@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 5300,
       "digest": "sha256:8b7e1462f382f675d17d55293102bda31a60c2f21126dff6b961fb7b88ef6799",
-      "download_count": 8462,
+      "download_count": 8617,
       "created_at": "2026-08-11T18:09:45Z",
       "updated_at": "2026-08-11T18:09:45Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/checksums.txt"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 10256,
       "digest": "sha256:e9f3923746024b72f3a113153179115374f33ecb31c14afed1c4ca151654b1f1",
-      "download_count": 6183,
+      "download_count": 6290,
       "created_at": "2026-08-11T18:09:45Z",
       "updated_at": "2026-08-11T18:09:45Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/checksums.txt.sigstore.json"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 6200748,
       "digest": "sha256:4b03411db0cf85507731fb9931f8f105463b1a5efdf71b0438733bd2cd9c0e79",
-      "download_count": 190,
+      "download_count": 193,
       "created_at": "2026-08-11T18:09:43Z",
       "updated_at": "2026-08-11T18:09:44Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow-3.0.0-1.aarch64.rpm"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 6820304,
       "digest": "sha256:d71e2a35188732b22d81e2228133da2e8bf5eec1131d0f406750f7788ce8ae49",
-      "download_count": 352,
+      "download_count": 358,
       "created_at": "2026-08-11T18:09:43Z",
       "updated_at": "2026-08-11T18:09:44Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow-3.0.0-1.x86_64.rpm"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 511031,
       "digest": "sha256:d16dcb89c50f85180ffb25f74a9ad7aa146380dffbc344e4f3344fcf729bbfd3",
-      "download_count": 176,
+      "download_count": 179,
       "created_at": "2026-08-11T18:09:42Z",
       "updated_at": "2026-08-11T18:09:43Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow-3.0.0.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 6473542,
       "digest": "sha256:80a2f3df20cccd912fc90d5fbff3d3c720408de92b740ed2d227de7ecb861be4",
-      "download_count": 269,
+      "download_count": 274,
       "created_at": "2026-08-11T18:09:42Z",
       "updated_at": "2026-08-11T18:09:44Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_aarch64.apk"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 6826496,
       "digest": "sha256:d5df58fe71df9ff734ae3d757ae9c27db79c3e889b16146b179bfa3b18b41d4d",
-      "download_count": 1424,
+      "download_count": 1451,
       "created_at": "2026-08-11T18:09:43Z",
       "updated_at": "2026-08-11T18:09:44Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_amd64.deb"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 6221630,
       "digest": "sha256:9d8c8f5b6caf4ff3a7e1b7365a002e47a23389912435d6afaa15c4ec6bc4181d",
-      "download_count": 376,
+      "download_count": 382,
       "created_at": "2026-08-11T18:09:43Z",
       "updated_at": "2026-08-11T18:09:44Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_arm64.deb"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 6466187,
       "digest": "sha256:4b8a9a32412c0525e4c239e65171706fc5beb6d423608d99fe16788d47b345d3",
-      "download_count": 1993,
+      "download_count": 2050,
       "created_at": "2026-08-11T18:09:42Z",
       "updated_at": "2026-08-11T18:09:43Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_Darwin_arm64.tar.gz"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 6925688,
       "digest": "sha256:b911b90622e686d44bc072112898584a601ed8353276b735835d8cdbcc27f660",
-      "download_count": 351,
+      "download_count": 376,
       "created_at": "2026-08-11T18:09:42Z",
       "updated_at": "2026-08-11T18:09:44Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_Darwin_x86_64.tar.gz"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 6796604,
       "digest": "sha256:25c57b68f15b10ee02463f5b5c294fd59618e2b584b3bd2df143589d217f87f9",
-      "download_count": 52,
+      "download_count": 53,
       "created_at": "2026-08-11T18:09:40Z",
       "updated_at": "2026-08-11T18:09:42Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_Freebsd_x86_64.tar.gz"
@@ -1075,7 +1075,7 @@
       "state": "uploaded",
       "size": 6223975,
       "digest": "sha256:810c39f4691feb75e675a5f5f54b9fa091354e7599d9cf9c9fc9b97e47a99759",
-      "download_count": 1963,
+      "download_count": 2002,
       "created_at": "2026-08-11T18:09:42Z",
       "updated_at": "2026-08-11T18:09:44Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_Linux_arm64.tar.gz"
@@ -1147,7 +1147,7 @@
       "state": "uploaded",
       "size": 6514803,
       "digest": "sha256:9c304ad49cf0271e49d6f0a2c32df4b0a09941df4721f11795f82a7ef5df1ddf",
-      "download_count": 196,
+      "download_count": 199,
       "created_at": "2026-08-11T18:09:40Z",
       "updated_at": "2026-08-11T18:09:42Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_Linux_i386.tar.gz"
@@ -1219,7 +1219,7 @@
       "state": "uploaded",
       "size": 6824849,
       "digest": "sha256:13e05e4b2acc18d2aee44291aefe6325b077ec321b631a0cfa780e8e3bc33f78",
-      "download_count": 12133,
+      "download_count": 12356,
       "created_at": "2026-08-11T18:09:40Z",
       "updated_at": "2026-08-11T18:09:43Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_Linux_x86_64.tar.gz"
@@ -1255,7 +1255,7 @@
       "state": "uploaded",
       "size": 103807,
       "digest": "sha256:4e71d5821cbcf87af0035374fbc77c0efe089b856b0400603842207e16cfc177",
-      "download_count": 61,
+      "download_count": 62,
       "created_at": "2026-08-11T18:09:44Z",
       "updated_at": "2026-08-11T18:09:45Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_Linux_x86_64.tar.gz.sbom.json"
@@ -1291,7 +1291,7 @@
       "state": "uploaded",
       "size": 6483226,
       "digest": "sha256:a742e5c26988f839338ef4448e825dd6d542e432bb23f6249834320f8de2f914",
-      "download_count": 45,
+      "download_count": 46,
       "created_at": "2026-08-11T18:09:40Z",
       "updated_at": "2026-08-11T18:09:42Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_Netbsd_arm.tar.gz"
@@ -1867,7 +1867,7 @@
       "state": "uploaded",
       "size": 6804387,
       "digest": "sha256:aa9b01c3d21b8d340e04dc81c1eb4f071e8d83ffe7c623ac4a9f3f2ffdd75995",
-      "download_count": 379,
+      "download_count": 384,
       "created_at": "2026-08-11T18:09:40Z",
       "updated_at": "2026-08-11T18:09:42Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_Windows_i386.zip"
@@ -1939,7 +1939,7 @@
       "state": "uploaded",
       "size": 7025299,
       "digest": "sha256:d8907e07436ecbb6738bc0e3bbf8aa6159e351f95082e9db3c3fc4200086f809",
-      "download_count": 5832,
+      "download_count": 5919,
       "created_at": "2026-08-11T18:09:40Z",
       "updated_at": "2026-08-11T18:09:42Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_Windows_x86_64.zip"
@@ -1975,7 +1975,7 @@
       "state": "uploaded",
       "size": 105504,
       "digest": "sha256:a2b1519c944f435a92947723429d355a08cba3c7b0436a87bdecbc0f0f631c5e",
-      "download_count": 51,
+      "download_count": 53,
       "created_at": "2026-08-11T18:09:44Z",
       "updated_at": "2026-08-11T18:09:45Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_Windows_x86_64.zip.sbom.json"
@@ -2011,7 +2011,7 @@
       "state": "uploaded",
       "size": 6759611,
       "digest": "sha256:40f1417399fa53bd845e618e8b08f44084acae7db0e227caa18cd9baf7f64779",
-      "download_count": 63,
+      "download_count": 66,
       "created_at": "2026-08-11T18:09:42Z",
       "updated_at": "2026-08-11T18:09:44Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_x86.apk"
@@ -2047,7 +2047,7 @@
       "state": "uploaded",
       "size": 7125645,
       "digest": "sha256:8fdacd53c8b3dd3816e82fed458669431c65916b7e983a2b0b3cd7f0e45785c4",
-      "download_count": 68,
+      "download_count": 69,
       "created_at": "2026-08-11T18:09:42Z",
       "updated_at": "2026-08-11T18:09:44Z",
       "browser_download_url": "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_x86_64.apk"
