@@ -4,7 +4,7 @@
 
 Render markdown on the CLI, with pizzazz! 💅🏻
 
-![glow](https://repo.x-cmd.io/glow.svg?lang=zh)
+[![x-cmd/install — glow Code Quality Monitoring Repo Card](https://repo.x-cmd.io/glow.svg?lang=zh)](https://x-cmd.com/install/glow)
 
 ## 安装
 
@@ -46,22 +46,22 @@ x install glow
 
 ## 流行度
 
-- **Star**: 27,361 · **Fork**: 762 · **开放 issue**: 395 · **贡献者**: 52
+- **Star**: 27,389 · **Fork**: 765 · **开放 issue**: 395 · **贡献者**: 52
 
 ## 累计统计
 
-- **发布数**: 24 · **已合并 PR**: 273 · **开放 PR**: 71 · **已关闭 issue**: 232 · **开放 issue**: 163 · **提交数**: 874
+- **发布数**: 24 · **已合并 PR**: 273 · **开放 PR**: 73 · **已关闭 issue**: 232 · **开放 issue**: 163 · **提交数**: 874
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 1 | 7 | 1 | 7 | 1 |
-| last60d | 2026-07-20 | 1 | 8 | 12 | 2 | 12 | 8 |
-| 90d | 2026-06-20 | 1 | 8 | 19 | 3 | 17 | 8 |
-| last180d | 2026-03-22 | 2 | 10 | 46 | 6 | 36 | 11 |
-| 360d | 2025-09-23 | 2 | 20 | 59 | 11 | 55 | 21 |
-| last720d | 2024-09-28 | 4 | 94 | 70 | 33 | 101 | 110 |
+| 30d | 2026-08-21 | 0 | 1 | 10 | 1 | 7 | 1 |
+| last60d | 2026-07-22 | 1 | 8 | 15 | 2 | 12 | 8 |
+| 90d | 2026-06-22 | 1 | 8 | 22 | 3 | 17 | 8 |
+| last180d | 2026-03-24 | 2 | 10 | 48 | 6 | 36 | 11 |
+| 360d | 2025-09-25 | 2 | 20 | 62 | 11 | 55 | 21 |
+| last720d | 2024-09-30 | 4 | 93 | 72 | 32 | 101 | 110 |
 
 ## Release 资产
 
@@ -133,4 +133,4 @@ glow 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T06:10:02Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T06:11:27Z._
