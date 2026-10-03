@@ -41,27 +41,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.0.0` (2026-08-11)
-- **Last commit**: 2026-09-22
+- **Last commit**: 2026-10-02
 - **Assets in release**: 56
 
 ## Popularity
 
-- **Stars**: 27,547 · **Forks**: 779 · **Open issues**: 397 · **Contributors**: 53
+- **Stars**: 27,564 · **Forks**: 780 · **Open issues**: 398 · **Contributors**: 53
 
 ## Totals (cumulative)
 
-- **Releases**: 24 · **Merged PRs**: 274 · **Open PRs**: 72 · **Closed issues**: 232 · **Open issues**: 165 · **Commits**: 875
+- **Releases**: 24 · **Merged PRs**: 275 · **Open PRs**: 74 · **Closed issues**: 232 · **Open issues**: 166 · **Commits**: 876
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-02 | 0 | 0 | 10 | 0 | 6 | 1 |
-| last60d | 2026-08-03 | 1 | 7 | 16 | 1 | 12 | 8 |
-| 90d | 2026-07-04 | 1 | 9 | 21 | 3 | 16 | 9 |
-| last180d | 2026-04-05 | 2 | 11 | 45 | 5 | 36 | 12 |
-| 360d | 2025-10-07 | 2 | 18 | 61 | 10 | 57 | 19 |
-| last720d | 2024-10-12 | 4 | 94 | 71 | 32 | 103 | 110 |
+| 30d | 2026-09-03 | 0 | 1 | 12 | 0 | 7 | 2 |
+| last60d | 2026-08-04 | 1 | 7 | 18 | 1 | 13 | 9 |
+| 90d | 2026-07-05 | 1 | 10 | 23 | 3 | 16 | 10 |
+| last180d | 2026-04-06 | 2 | 12 | 47 | 5 | 37 | 13 |
+| 360d | 2025-10-08 | 2 | 19 | 63 | 10 | 58 | 20 |
+| last720d | 2024-10-13 | 4 | 95 | 73 | 32 | 104 | 111 |
 
 ## Release assets
 
@@ -133,4 +133,4 @@ Install metadata for glow lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261002.yml` · 2026-10-02T06:32:30Z._
+_Snapshot: `data/card/261003.yml` · 2026-10-03T06:15:03Z._
