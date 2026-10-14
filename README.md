@@ -29,8 +29,8 @@ Overall score: **5.5 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (4/10) — Found 7/16 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (4/10) — Found 7/16 approved changesets -- score normalized to 4
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 27,669 · **Forks**: 788 · **Open issues**: 402 · **Contributors**: 53
+- **Stars**: 27,679 · **Forks**: 791 · **Open issues**: 403 · **Contributors**: 53
 
 ## Totals (cumulative)
 
-- **Releases**: 24 · **Merged PRs**: 275 · **Open PRs**: 78 · **Closed issues**: 233 · **Open issues**: 169 · **Commits**: 876
+- **Releases**: 24 · **Merged PRs**: 275 · **Open PRs**: 82 · **Closed issues**: 233 · **Open issues**: 170 · **Commits**: 876
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 1 | 14 | 1 | 8 | 2 |
-| last60d | 2026-08-14 | 0 | 3 | 19 | 2 | 14 | 3 |
-| 90d | 2026-07-15 | 1 | 10 | 26 | 3 | 18 | 10 |
-| last180d | 2026-04-16 | 1 | 10 | 49 | 6 | 38 | 11 |
-| 360d | 2025-10-18 | 2 | 18 | 67 | 11 | 58 | 19 |
-| last720d | 2024-10-23 | 4 | 94 | 77 | 33 | 105 | 111 |
+| 30d | 2026-09-14 | 0 | 1 | 18 | 1 | 9 | 2 |
+| last60d | 2026-08-15 | 0 | 3 | 22 | 2 | 15 | 3 |
+| 90d | 2026-07-16 | 1 | 10 | 29 | 3 | 19 | 10 |
+| last180d | 2026-04-17 | 1 | 10 | 53 | 6 | 39 | 11 |
+| 360d | 2025-10-19 | 2 | 18 | 71 | 11 | 59 | 19 |
+| last720d | 2024-10-24 | 4 | 94 | 81 | 33 | 106 | 111 |
 
 ## Release assets
 
@@ -133,4 +133,4 @@ Install metadata for glow lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T08:08:05Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T05:54:29Z._

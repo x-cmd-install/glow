@@ -29,8 +29,8 @@ x install glow
 
 评分最低的几项:
 
-- **Code-Review** (4/10) — Found 7/16 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (4/10) — Found 7/16 approved changesets -- score normalized to 4
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
@@ -46,22 +46,22 @@ x install glow
 
 ## 流行度
 
-- **Star**: 27,669 · **Fork**: 788 · **开放 issue**: 402 · **贡献者**: 53
+- **Star**: 27,679 · **Fork**: 791 · **开放 issue**: 403 · **贡献者**: 53
 
 ## 累计统计
 
-- **发布数**: 24 · **已合并 PR**: 275 · **开放 PR**: 78 · **已关闭 issue**: 233 · **开放 issue**: 169 · **提交数**: 876
+- **发布数**: 24 · **已合并 PR**: 275 · **开放 PR**: 82 · **已关闭 issue**: 233 · **开放 issue**: 170 · **提交数**: 876
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 1 | 14 | 1 | 8 | 2 |
-| last60d | 2026-08-14 | 0 | 3 | 19 | 2 | 14 | 3 |
-| 90d | 2026-07-15 | 1 | 10 | 26 | 3 | 18 | 10 |
-| last180d | 2026-04-16 | 1 | 10 | 49 | 6 | 38 | 11 |
-| 360d | 2025-10-18 | 2 | 18 | 67 | 11 | 58 | 19 |
-| last720d | 2024-10-23 | 4 | 94 | 77 | 33 | 105 | 111 |
+| 30d | 2026-09-14 | 0 | 1 | 18 | 1 | 9 | 2 |
+| last60d | 2026-08-15 | 0 | 3 | 22 | 2 | 15 | 3 |
+| 90d | 2026-07-16 | 1 | 10 | 29 | 3 | 19 | 10 |
+| last180d | 2026-04-17 | 1 | 10 | 53 | 6 | 39 | 11 |
+| 360d | 2025-10-19 | 2 | 18 | 71 | 11 | 59 | 19 |
+| last720d | 2024-10-24 | 4 | 94 | 81 | 33 | 106 | 111 |
 
 ## Release 资产
 
@@ -133,4 +133,4 @@ glow 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261013.yml` · 2026-10-13T08:08:05Z._
+_数据快照: `data/card/261014.yml` · 2026-10-14T05:54:29Z._
