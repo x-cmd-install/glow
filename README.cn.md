@@ -46,7 +46,7 @@ x install glow
 
 ## 流行度
 
-- **Star**: 27,760 · **Fork**: 799 · **开放 issue**: 404 · **贡献者**: 53
+- **Star**: 27,769 · **Fork**: 801 · **开放 issue**: 404 · **贡献者**: 53
 
 ## 累计统计
 
@@ -56,12 +56,12 @@ x install glow
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 1 | 17 | 1 | 8 | 1 |
-| last60d | 2026-08-23 | 0 | 3 | 27 | 2 | 15 | 3 |
-| 90d | 2026-07-24 | 1 | 10 | 32 | 3 | 20 | 10 |
-| last180d | 2026-04-25 | 1 | 10 | 56 | 6 | 37 | 10 |
-| 360d | 2025-10-27 | 2 | 18 | 75 | 11 | 59 | 19 |
-| last720d | 2024-11-01 | 4 | 93 | 86 | 33 | 106 | 110 |
+| 30d | 2026-09-23 | 0 | 1 | 17 | 1 | 8 | 1 |
+| last60d | 2026-08-24 | 0 | 3 | 27 | 2 | 15 | 3 |
+| 90d | 2026-07-25 | 1 | 10 | 32 | 3 | 20 | 10 |
+| last180d | 2026-04-26 | 1 | 10 | 56 | 6 | 37 | 10 |
+| 360d | 2025-10-28 | 2 | 18 | 75 | 11 | 59 | 19 |
+| last720d | 2024-11-02 | 4 | 93 | 86 | 33 | 106 | 110 |
 
 ## Release 资产
 
@@ -124,6 +124,24 @@ x install glow
 | [glow_3.0.0_x86.apk](https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_x86.apk) | 6.4 MiB | `other` |
 | [glow_3.0.0_x86_64.apk](https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_x86_64.apk) | 6.8 MiB | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/glow) 上共有 **87** 个发行版报告此项目。**38** 个 ✅ 已是最新上游版本，**37** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `2.1.2` | ⚠️ outdated |
+| Debian 14 | `2.1.2` | ⚠️ outdated |
+| Debian 13 | `2.0.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.1.1` | ⚠️ outdated |
+| Arch | `3.0.0` | ✅ latest |
+| Homebrew | `3.0.0` | ✅ latest |
+| Fedora rawhide | `3.0.0` | ✅ latest |
+| Nix unstable | `3.0.0` | ✅ latest |
+| Void | `3.0.0` | ✅ latest |
+| Alpine edge | `3.0.0` | ✅ latest |
+| openSUSE Tumbleweed | `3.0.0` | ✅ latest |
+
 ## 改进这些数据
 
 glow 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `glow` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -133,4 +151,4 @@ glow 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:41:03Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:43:07Z._
