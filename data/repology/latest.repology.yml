@@ -1,73 +1,24 @@
-- repo: raspbian_stable
-  subrepo: main
+- repo: nix_stable_24_11
   srcname: glow
-  binnames:
-    - glow
   visiblename: glow
   version: 2.0.0
-  origversion: 2.0.0-1
+  origversion: null
   status: outdated
+  summary: Render markdown on the CLI, with pizzazz!
   maintainers:
-    - team+pkg-go@tracker.debian.org
-    - otto@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: glow
-  binnames:
-    - glow
-  visiblename: glow
-  version: 2.1.2
-  origversion: 2.1.2-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - otto@debian.org
-  categories:
-    - misc
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: glow
-  binname: glow
-  visiblename: glow
-  version: 3.0.0
-  origversion: 3.0.0-2
-  status: newest
-  summary: Command-line markdown renderer
+    - brightone@protonmail.com
+    - penguwin@penguwin.eu
   licenses:
     - MIT
-- repo: parabola
-  subrepo: extra
+- repo: chimera
+  subrepo: user
   srcname: glow
-  binname: glow
-  visiblename: glow
+  binname: glow-doc
+  visiblename: glow-doc
   version: 3.0.0
-  origversion: 3.0.0-2
+  origversion: 3.0.0-r1
   status: newest
-  summary: Command-line markdown renderer
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: glow
-  binname: glow
-  visiblename: glow
-  version: 3.0.0
-  origversion: 3.0.0-2
-  status: newest
-  summary: Command-line markdown renderer
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: glow
-  binname: glow
-  visiblename: glow
-  version: 3.0.0
-  origversion: 3.0.0-2
-  status: newest
-  summary: Command-line markdown renderer
+  summary: Render markdown on the CLI (documentation)
   licenses:
     - MIT
 - repo: alpine_edge
@@ -222,17 +173,6 @@
   origversion: 3.0.0-r1
   status: newest
   summary: Render markdown on the CLI (bash completions)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: glow
-  binname: glow-doc
-  visiblename: glow-doc
-  version: 3.0.0
-  origversion: 3.0.0-r1
-  status: newest
-  summary: Render markdown on the CLI (documentation)
   licenses:
     - MIT
 - repo: chimera
@@ -517,20 +457,6 @@
     - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
   categories:
     - Unspecified
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: glow
-  binnames:
-    - glow
-  visiblename: glow
-  version: 2.0.0
-  origversion: 2.0.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - otto@debian.org
-  categories:
-    - utils
 - repo: freebsd
   srcname: sysutils/glow
   binname: glow
@@ -558,6 +484,18 @@
     - BSD
   categories:
     - app-misc
+- repo: nix_stable_25_05
+  srcname: glow
+  visiblename: glow
+  version: 2.1.0
+  origversion: null
+  status: outdated
+  summary: Render markdown on the CLI, with pizzazz!
+  maintainers:
+    - brightone@protonmail.com
+    - penguwin@penguwin.eu
+  licenses:
+    - MIT
 - repo: gentoo_ovl_guru
   srcname: app-misc/glow
   visiblename: app-misc/glow
@@ -689,34 +627,43 @@
     - MIT
   categories:
     - textproc
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: glow
+  binname: glow
+  visiblename: glow
+  version: 3.0.0
+  origversion: 3.0.0-2
+  status: newest
+  summary: Command-line markdown renderer
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: glow
+  binname: glow
+  visiblename: glow
+  version: 3.0.0
+  origversion: 3.0.0-2
+  status: newest
+  summary: Command-line markdown renderer
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: glow
+  binname: glow
+  visiblename: glow
+  version: 3.0.0
+  origversion: 3.0.0-2
+  status: newest
+  summary: Command-line markdown renderer
+  licenses:
+    - MIT
 - repo: nix_stable_24_05
   srcname: glow
   visiblename: glow
   version: 1.5.1
-  origversion: null
-  status: outdated
-  summary: Render markdown on the CLI, with pizzazz!
-  maintainers:
-    - brightone@protonmail.com
-    - penguwin@penguwin.eu
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: glow
-  visiblename: glow
-  version: 2.0.0
-  origversion: null
-  status: outdated
-  summary: Render markdown on the CLI, with pizzazz!
-  maintainers:
-    - brightone@protonmail.com
-    - penguwin@penguwin.eu
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: glow
-  visiblename: glow
-  version: 2.1.0
   origversion: null
   status: outdated
   summary: Render markdown on the CLI, with pizzazz!
@@ -809,8 +756,19 @@
   origversion: 2.1.2-1
   status: outdated
   summary: Render markdown on the CLI, with pizzazz!
+- repo: parabola
+  subrepo: extra
+  srcname: glow
+  binname: glow
+  visiblename: glow
+  version: 3.0.0
+  origversion: 3.0.0-2
+  status: newest
+  summary: Command-line markdown renderer
+  licenses:
+    - MIT
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: glow
   binnames:
     - glow
@@ -824,7 +782,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: glow
   binnames:
     - glow
@@ -854,7 +812,7 @@
   binname: glow
   visiblename: textproc/glow
   version: 2.1.2
-  origversion: 2.1.2nb7
+  origversion: 2.1.2nb8
   status: outdated
   summary: Render markdown on the CLI
   maintainers:
@@ -873,6 +831,48 @@
     - sjmulder@netbsd.org
   categories:
     - textproc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: glow
+  binnames:
+    - glow
+  visiblename: glow
+  version: 2.0.0
+  origversion: 2.0.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - otto@debian.org
+  categories:
+    - utils
+- repo: raspbian_stable
+  subrepo: main
+  srcname: glow
+  binnames:
+    - glow
+  visiblename: glow
+  version: 2.0.0
+  origversion: 2.0.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - otto@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: glow
+  binnames:
+    - glow
+  visiblename: glow
+  version: 2.1.2
+  origversion: 2.1.2-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - otto@debian.org
+  categories:
+    - misc
 - repo: scoop
   subrepo: main
   binname: glow
