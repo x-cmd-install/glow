@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 27,848 · **Forks**: 805 · **Open issues**: 406 · **Contributors**: 53
+- **Stars**: 27,859 · **Forks**: 808 · **Open issues**: 406 · **Contributors**: 53
 
 ## Totals (cumulative)
 
-- **Releases**: 24 · **Merged PRs**: 275 · **Open PRs**: 89 · **Closed issues**: 233 · **Open issues**: 173 · **Commits**: 876
+- **Releases**: 24 · **Merged PRs**: 275 · **Open PRs**: 90 · **Closed issues**: 233 · **Open issues**: 173 · **Commits**: 876
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 0 | 1 | 19 | 1 | 10 | 1 |
-| last60d | 2026-08-30 | 0 | 3 | 28 | 1 | 15 | 2 |
-| 90d | 2026-07-31 | 1 | 9 | 34 | 2 | 20 | 10 |
-| last180d | 2026-05-02 | 1 | 10 | 56 | 6 | 39 | 10 |
-| 360d | 2025-11-03 | 2 | 18 | 77 | 11 | 59 | 19 |
-| last720d | 2024-11-08 | 4 | 93 | 88 | 33 | 107 | 110 |
+| 30d | 2026-09-30 | 0 | 1 | 20 | 1 | 9 | 1 |
+| last60d | 2026-08-31 | 0 | 3 | 29 | 1 | 14 | 2 |
+| 90d | 2026-08-01 | 1 | 9 | 35 | 2 | 20 | 10 |
+| last180d | 2026-05-03 | 1 | 10 | 57 | 6 | 39 | 10 |
+| 360d | 2025-11-04 | 2 | 18 | 78 | 11 | 59 | 19 |
+| last720d | 2024-11-09 | 4 | 93 | 89 | 33 | 107 | 110 |
 
 ## Release assets
 
@@ -126,7 +126,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **88** distros on [repology.org](https://repology.org/project/glow). **38** are ✅ on the latest upstream release, **38** are ⚠️ on an older version.
+Reported by **87** distros on [repology.org](https://repology.org/project/glow). **38** are ✅ on the latest upstream release, **37** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -151,4 +151,4 @@ Install metadata for glow lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T06:53:57Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T06:46:19Z._
