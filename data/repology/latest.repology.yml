@@ -1,10 +1,44 @@
-- repo: chromebrew
+- repo: wakemeops
+  subrepo: terminal
+  binname: glow
+  visiblename: glow
+  version: 3.0.0
+  origversion: 3.0.0-1~ops2deb
+  status: newest
+  maintainers:
+    - ops2deb@upciti.com
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
   srcname: glow
   visiblename: glow
+  version: 1.5.1
+  origversion: 1.5.1-bp156.1.12
+  status: outdated
+  summary: Render markdown on the CLI
+  licenses:
+    - MIT
+  categories:
+    - System/Console
+- repo: stalix_dev
+  srcname: bin/glow
+  binname: bin/glow
+  visiblename: bin/glow
   version: 3.0.0
   origversion: null
   status: newest
-  summary: Glow is a terminal based markdown reader.
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: chimera
+  subrepo: user
+  srcname: glow
+  binname: glow-doc
+  visiblename: glow-doc
+  version: 3.0.0
+  origversion: 3.0.0-r1
+  status: newest
+  summary: Render markdown on the CLI (documentation)
   licenses:
     - MIT
 - repo: alpine_edge
@@ -18,6 +52,28 @@
   summary: Markdown renderer on the CLI, with pizzazz
   maintainers:
     - folliekazetani@protonmail.com
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: glow
+  binname: glow-fishcomp
+  visiblename: glow-fishcomp
+  version: 3.0.0
+  origversion: 3.0.0-r1
+  status: newest
+  summary: Render markdown on the CLI (fish completions)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: glow
+  binname: glow-man
+  visiblename: glow-man
+  version: 3.0.0
+  origversion: 3.0.0-r1
+  status: newest
+  summary: Render markdown on the CLI (manual pages)
   licenses:
     - MIT
 - repo: alpine_edge
@@ -164,39 +220,6 @@
 - repo: chimera
   subrepo: user
   srcname: glow
-  binname: glow-doc
-  visiblename: glow-doc
-  version: 3.0.0
-  origversion: 3.0.0-r1
-  status: newest
-  summary: Render markdown on the CLI (documentation)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: glow
-  binname: glow-fishcomp
-  visiblename: glow-fishcomp
-  version: 3.0.0
-  origversion: 3.0.0-r1
-  status: newest
-  summary: Render markdown on the CLI (fish completions)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: glow
-  binname: glow-man
-  visiblename: glow-man
-  version: 3.0.0
-  origversion: 3.0.0-r1
-  status: newest
-  summary: Render markdown on the CLI (manual pages)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: glow
   binname: glow-zshcomp
   visiblename: glow-zshcomp
   version: 3.0.0
@@ -212,6 +235,15 @@
   origversion: null
   status: newest
   summary: Glow is a terminal based markdown reader designed from the ground up to bring out the beauty—and power—of the CLI.
+- repo: chromebrew
+  srcname: glow
+  visiblename: glow
+  version: 3.0.0
+  origversion: null
+  status: newest
+  summary: Glow is a terminal based markdown reader.
+  licenses:
+    - MIT
 - repo: crux_37
   subrepo: contrib
   srcname: glow
@@ -248,20 +280,6 @@
     - misc
 - repo: debian_14
   subrepo: forky/main
-  srcname: glow
-  binnames:
-    - glow
-  visiblename: glow
-  version: 2.1.2
-  origversion: 2.1.2-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - otto@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
   srcname: glow
   binnames:
     - glow
@@ -392,20 +410,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: release
-  srcname: glow
-  binnames:
-    - glow
-  visiblename: glow
-  version: 2.1.1
-  origversion: 2.1.1-6.fc43
-  status: legacy
-  summary: Terminal based markdown reader
-  licenses:
-    - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: updates
   srcname: glow
   binnames:
@@ -414,6 +418,20 @@
   version: 2.1.2
   origversion: 2.1.2-1.fc43
   status: outdated
+  summary: Terminal based markdown reader
+  licenses:
+    - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: glow
+  binnames:
+    - glow
+  visiblename: glow
+  version: 2.1.1
+  origversion: 2.1.1-6.fc43
+  status: legacy
   summary: Terminal based markdown reader
   licenses:
     - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
@@ -699,20 +717,6 @@
     - brightone@protonmail.com
   licenses:
     - MIT
-- repo: solus
-  srcname: glow
-  binname: glow
-  visiblename: glow
-  version: 3.0.0
-  origversion: null
-  status: newest
-  summary: Glow is a terminal based markdown reader designed from the ground up to bring out the beauty—and power—of the CLI.
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - MIT
-  categories:
-    - office.notes
 - repo: nix_stable_26_05
   srcname: glow
   visiblename: glow
@@ -741,18 +745,6 @@
   visiblename: glow
   version: 1.5.1
   origversion: 1.5.1-lp156.2.3.1
-  status: outdated
-  summary: Render markdown on the CLI
-  licenses:
-    - MIT
-  categories:
-    - System/Console
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: glow
-  visiblename: glow
-  version: 1.5.1
-  origversion: 1.5.1-bp156.1.12
   status: outdated
   summary: Render markdown on the CLI
   licenses:
@@ -798,7 +790,7 @@
   licenses:
     - MIT
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: glow
   binnames:
     - glow
@@ -812,7 +804,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: glow
   binnames:
     - glow
@@ -924,6 +916,20 @@
     - office
 - repo: solus
   srcname: glow
+  binname: glow
+  visiblename: glow
+  version: 3.0.0
+  origversion: null
+  status: newest
+  summary: Glow is a terminal based markdown reader designed from the ground up to bring out the beauty—and power—of the CLI.
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - MIT
+  categories:
+    - office.notes
+- repo: solus
+  srcname: glow
   binname: glow-dbginfo
   visiblename: glow-dbginfo
   version: 3.0.0
@@ -953,17 +959,6 @@
   version: 2.1.1
   origversion: null
   status: outdated
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: stalix_dev
-  srcname: bin/glow
-  binname: bin/glow
-  visiblename: bin/glow
-  version: 3.0.0
-  origversion: null
-  status: newest
   maintainers:
     - anton@samokhvalov.xyz
   categories:
@@ -1060,15 +1055,6 @@
     - josh@klar.sh
   licenses:
     - MIT
-- repo: wakemeops
-  subrepo: terminal
-  binname: glow
-  visiblename: glow
-  version: 3.0.0
-  origversion: 3.0.0-1~ops2deb
-  status: newest
-  maintainers:
-    - ops2deb@upciti.com
 - repo: wakemeops
   subrepo: terminal
   binname: glow
