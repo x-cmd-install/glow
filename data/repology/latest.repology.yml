@@ -1,12 +1,25 @@
-- repo: wakemeops
-  subrepo: terminal
-  binname: glow
+- repo: chimera
+  subrepo: user
+  srcname: glow
+  binname: glow-man
+  visiblename: glow-man
+  version: 3.0.0
+  origversion: 3.0.0-r1
+  status: newest
+  summary: Render markdown on the CLI (manual pages)
+  licenses:
+    - MIT
+- repo: nix_unstable
+  srcname: glow
   visiblename: glow
   version: 3.0.0
-  origversion: 3.0.0-1~ops2deb
+  origversion: null
   status: newest
+  summary: Render markdown on the CLI, with pizzazz
   maintainers:
-    - ops2deb@upciti.com
+    - higherorderlogic@github
+  licenses:
+    - MIT
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: glow
@@ -19,28 +32,18 @@
     - MIT
   categories:
     - System/Console
-- repo: stalix_dev
-  srcname: bin/glow
-  binname: bin/glow
-  visiblename: bin/glow
-  version: 3.0.0
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: chimera
-  subrepo: user
+- repo: opensuse_leap_15_6
+  subrepo: updates/oss
   srcname: glow
-  binname: glow-doc
-  visiblename: glow-doc
-  version: 3.0.0
-  origversion: 3.0.0-r1
-  status: newest
-  summary: Render markdown on the CLI (documentation)
+  visiblename: glow
+  version: 1.5.1
+  origversion: 1.5.1-lp156.2.3.1
+  status: outdated
+  summary: Render markdown on the CLI
   licenses:
     - MIT
+  categories:
+    - System/Console
 - repo: alpine_edge
   subrepo: testing
   srcname: glow
@@ -54,28 +57,17 @@
     - folliekazetani@protonmail.com
   licenses:
     - MIT
-- repo: chimera
-  subrepo: user
-  srcname: glow
-  binname: glow-fishcomp
-  visiblename: glow-fishcomp
+- repo: stalix_dev
+  srcname: bin/glow
+  binname: bin/glow
+  visiblename: bin/glow
   version: 3.0.0
-  origversion: 3.0.0-r1
+  origversion: null
   status: newest
-  summary: Render markdown on the CLI (fish completions)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: glow
-  binname: glow-man
-  visiblename: glow-man
-  version: 3.0.0
-  origversion: 3.0.0-r1
-  status: newest
-  summary: Render markdown on the CLI (manual pages)
-  licenses:
-    - MIT
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: alpine_edge
   subrepo: testing
   srcname: glow
@@ -220,6 +212,28 @@
 - repo: chimera
   subrepo: user
   srcname: glow
+  binname: glow-doc
+  visiblename: glow-doc
+  version: 3.0.0
+  origversion: 3.0.0-r1
+  status: newest
+  summary: Render markdown on the CLI (documentation)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: glow
+  binname: glow-fishcomp
+  visiblename: glow-fishcomp
+  version: 3.0.0
+  origversion: 3.0.0-r1
+  status: newest
+  summary: Render markdown on the CLI (fish completions)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: glow
   binname: glow-zshcomp
   visiblename: glow-zshcomp
   version: 3.0.0
@@ -285,11 +299,12 @@
     - glow
   visiblename: glow
   version: 2.1.2
-  origversion: 2.1.2-2
+  origversion: 2.1.2-3
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
     - otto@debian.org
+    - tiago.myhro@gmail.com
   categories:
     - misc
 - repo: debian_unstable
@@ -382,20 +397,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: glow
-  binnames:
-    - glow
-  visiblename: glow
-  version: 2.1.2
-  origversion: 2.1.2-1.fc42
-  status: outdated
-  summary: Terminal based markdown reader
-  licenses:
-    - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: glow
   binnames:
@@ -407,6 +408,20 @@
   summary: Terminal based markdown reader
   licenses:
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND MPL-2.0 AND OFL-1.1
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: glow
+  binnames:
+    - glow
+  visiblename: glow
+  version: 2.1.2
+  origversion: 2.1.2-1.fc42
+  status: outdated
+  summary: Terminal based markdown reader
+  licenses:
+    - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
   categories:
     - Unspecified
 - repo: fedora_43
@@ -728,29 +743,6 @@
     - higherorderlogic@github
   licenses:
     - MIT
-- repo: nix_unstable
-  srcname: glow
-  visiblename: glow
-  version: 3.0.0
-  origversion: null
-  status: newest
-  summary: Render markdown on the CLI, with pizzazz
-  maintainers:
-    - higherorderlogic@github
-  licenses:
-    - MIT
-- repo: opensuse_leap_15_6
-  subrepo: updates/oss
-  srcname: glow
-  visiblename: glow
-  version: 1.5.1
-  origversion: 1.5.1-lp156.2.3.1
-  status: outdated
-  summary: Render markdown on the CLI
-  licenses:
-    - MIT
-  categories:
-    - System/Console
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: glow
@@ -888,11 +880,12 @@
     - glow
   visiblename: glow
   version: 2.1.2
-  origversion: 2.1.2-2
+  origversion: 2.1.2-3
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
     - otto@debian.org
+    - tiago.myhro@gmail.com
   categories:
     - misc
 - repo: scoop
@@ -1055,6 +1048,15 @@
     - josh@klar.sh
   licenses:
     - MIT
+- repo: wakemeops
+  subrepo: terminal
+  binname: glow
+  visiblename: glow
+  version: 3.0.0
+  origversion: 3.0.0-1~ops2deb
+  status: newest
+  maintainers:
+    - ops2deb@upciti.com
 - repo: wakemeops
   subrepo: terminal
   binname: glow
