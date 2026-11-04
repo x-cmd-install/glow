@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 27,896 · **Forks**: 812 · **Open issues**: 407 · **Contributors**: 53
+- **Stars**: 27,909 · **Forks**: 812 · **Open issues**: 406 · **Contributors**: 53
 
 ## Totals (cumulative)
 
-- **Releases**: 24 · **Merged PRs**: 275 · **Open PRs**: 92 · **Closed issues**: 233 · **Open issues**: 174 · **Commits**: 876
+- **Releases**: 24 · **Merged PRs**: 275 · **Open PRs**: 93 · **Closed issues**: 233 · **Open issues**: 173 · **Commits**: 876
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 0 | 17 | 1 | 8 | 0 |
-| last60d | 2026-09-04 | 0 | 1 | 29 | 1 | 15 | 2 |
-| 90d | 2026-08-05 | 1 | 7 | 36 | 2 | 21 | 9 |
-| last180d | 2026-05-07 | 1 | 10 | 59 | 6 | 39 | 10 |
-| 360d | 2025-11-08 | 2 | 18 | 80 | 11 | 60 | 17 |
-| last720d | 2024-11-13 | 4 | 93 | 91 | 33 | 108 | 110 |
+| 30d | 2026-10-05 | 0 | 0 | 17 | 1 | 8 | 0 |
+| last60d | 2026-09-05 | 0 | 1 | 30 | 1 | 15 | 2 |
+| 90d | 2026-08-06 | 1 | 7 | 36 | 2 | 21 | 9 |
+| last180d | 2026-05-08 | 1 | 10 | 60 | 6 | 38 | 10 |
+| 360d | 2025-11-09 | 2 | 18 | 81 | 11 | 59 | 17 |
+| last720d | 2024-11-14 | 4 | 93 | 92 | 33 | 107 | 110 |
 
 ## Release assets
 
@@ -151,4 +151,4 @@ Install metadata for glow lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T07:58:23Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T07:30:05Z._
