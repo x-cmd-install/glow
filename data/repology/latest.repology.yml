@@ -362,6 +362,20 @@
   categories:
     - Unspecified
 - repo: fedora_42
+  subrepo: updates
+  srcname: glow
+  binnames:
+    - glow
+  visiblename: glow
+  version: 2.1.2
+  origversion: 2.1.2-1.fc42
+  status: outdated
+  summary: Terminal based markdown reader
+  licenses:
+    - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
+  categories:
+    - Unspecified
+- repo: fedora_42
   subrepo: release
   srcname: glow
   binnames:
@@ -375,14 +389,14 @@
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND MPL-2.0 AND OFL-1.1
   categories:
     - Unspecified
-- repo: fedora_42
+- repo: fedora_43
   subrepo: updates
   srcname: glow
   binnames:
     - glow
   visiblename: glow
   version: 2.1.2
-  origversion: 2.1.2-1.fc42
+  origversion: 2.1.2-1.fc43
   status: outdated
   summary: Terminal based markdown reader
   licenses:
@@ -403,15 +417,15 @@
     - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
   categories:
     - Unspecified
-- repo: fedora_43
-  subrepo: updates
+- repo: fedora_44
+  subrepo: release
   srcname: glow
   binnames:
     - glow
   visiblename: glow
-  version: 2.1.2
-  origversion: 2.1.2-1.fc43
-  status: outdated
+  version: 2.1.1
+  origversion: 2.1.1-10.fc44
+  status: legacy
   summary: Terminal based markdown reader
   licenses:
     - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
@@ -426,20 +440,6 @@
   version: 2.1.2
   origversion: 2.1.2-1.fc44
   status: outdated
-  summary: Terminal based markdown reader
-  licenses:
-    - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
-  categories:
-    - Unspecified
-- repo: fedora_44
-  subrepo: release
-  srcname: glow
-  binnames:
-    - glow
-  visiblename: glow
-  version: 2.1.1
-  origversion: 2.1.1-10.fc44
-  status: legacy
   summary: Terminal based markdown reader
   licenses:
     - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
@@ -687,20 +687,6 @@
     - penguwin@penguwin.eu
   licenses:
     - MIT
-- repo: solus
-  srcname: glow
-  binname: glow
-  visiblename: glow
-  version: 3.0.0
-  origversion: null
-  status: newest
-  summary: Glow is a terminal based markdown reader designed from the ground up to bring out the beauty—and power—of the CLI.
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - MIT
-  categories:
-    - office.notes
 - repo: nix_stable_26_05
   srcname: glow
   visiblename: glow
@@ -724,11 +710,11 @@
   licenses:
     - MIT
 - repo: opensuse_leap_15_6
-  subrepo: updates/oss
+  subrepo: main/oss
   srcname: glow
   visiblename: glow
   version: 1.5.1
-  origversion: 1.5.1-lp156.2.3.1
+  origversion: 1.5.1-bp156.1.12
   status: outdated
   summary: Render markdown on the CLI
   licenses:
@@ -736,11 +722,11 @@
   categories:
     - System/Console
 - repo: opensuse_leap_15_6
-  subrepo: main/oss
+  subrepo: updates/oss
   srcname: glow
   visiblename: glow
   version: 1.5.1
-  origversion: 1.5.1-bp156.1.12
+  origversion: 1.5.1-lp156.2.3.1
   status: outdated
   summary: Render markdown on the CLI
   licenses:
@@ -786,7 +772,7 @@
   licenses:
     - MIT
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: glow
   binnames:
     - glow
@@ -800,7 +786,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: glow
   binnames:
     - glow
@@ -911,6 +897,20 @@
     - vijaymarcel@outlook.com
   categories:
     - office
+- repo: solus
+  srcname: glow
+  binname: glow
+  visiblename: glow
+  version: 3.0.0
+  origversion: null
+  status: newest
+  summary: Glow is a terminal based markdown reader designed from the ground up to bring out the beauty—and power—of the CLI.
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - MIT
+  categories:
+    - office.notes
 - repo: solus
   srcname: glow
   binname: glow-dbginfo
@@ -1048,6 +1048,21 @@
   maintainers:
     - team+pkg-go@tracker.debian.org
     - otto@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04_proposed
+  subrepo: tenacious-proposed/universe
+  srcname: glow
+  binnames:
+    - glow
+  visiblename: glow
+  version: 2.1.2
+  origversion: 2.1.2-3
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - otto@debian.org
+    - tiago.myhro@gmail.com
   categories:
     - universe/misc
 - repo: void_x86_64
