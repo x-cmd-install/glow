@@ -25,12 +25,12 @@ Total: **3,628** lines of code across **36** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.5 / 10**
+Overall score: **5.1 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (4/10) — Found 7/16 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (4/10) — Found 7/16 approved changesets -- score normalized to 4
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 27,982 · **Forks**: 815 · **Open issues**: 407 · **Contributors**: 53
+- **Stars**: 27,998 · **Forks**: 815 · **Open issues**: 407 · **Contributors**: 53
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 0 | 0 | 18 | 0 | 7 | 0 |
-| last60d | 2026-09-11 | 0 | 1 | 31 | 1 | 15 | 2 |
-| 90d | 2026-08-12 | 0 | 3 | 38 | 2 | 20 | 3 |
-| last180d | 2026-05-14 | 1 | 10 | 60 | 6 | 36 | 10 |
-| 360d | 2025-11-15 | 2 | 16 | 83 | 11 | 59 | 16 |
-| last720d | 2024-11-20 | 4 | 93 | 94 | 33 | 108 | 110 |
+| 30d | 2026-10-12 | 0 | 0 | 18 | 0 | 7 | 0 |
+| last60d | 2026-09-12 | 0 | 1 | 31 | 1 | 14 | 2 |
+| 90d | 2026-08-13 | 0 | 3 | 37 | 2 | 20 | 3 |
+| last180d | 2026-05-15 | 1 | 10 | 60 | 6 | 36 | 10 |
+| 360d | 2025-11-16 | 2 | 16 | 83 | 11 | 59 | 16 |
+| last720d | 2024-11-21 | 4 | 93 | 94 | 33 | 108 | 110 |
 
 ## Release assets
 
@@ -151,4 +151,4 @@ Install metadata for glow lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T08:39:59Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:20:11Z._
