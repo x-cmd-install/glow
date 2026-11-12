@@ -1,12 +1,24 @@
-- repo: nix_stable_25_11
+- repo: raspbian_stable
+  subrepo: main
+  srcname: glow
+  binnames:
+    - glow
+  visiblename: glow
+  version: 2.0.0
+  origversion: 2.0.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - otto@debian.org
+  categories:
+    - misc
+- repo: aerynos
   srcname: glow
   visiblename: glow
-  version: 2.1.1
+  version: 3.0.0
   origversion: null
-  status: outdated
-  summary: Render markdown on the CLI, with pizzazz
-  maintainers:
-    - brightone@protonmail.com
+  status: newest
+  summary: Render markdown on the CLI
   licenses:
     - MIT
 - repo: alpine_edge
@@ -464,7 +476,7 @@
   binname: glow
   visiblename: sysutils/glow
   version: 3.0.0
-  origversion: 3.0.0_1
+  origversion: 3.0.0_2
   status: newest
   summary: Render markdown on the CLI, with pizzazz!
   maintainers:
@@ -687,6 +699,17 @@
     - penguwin@penguwin.eu
   licenses:
     - MIT
+- repo: nix_stable_25_11
+  srcname: glow
+  visiblename: glow
+  version: 2.1.1
+  origversion: null
+  status: outdated
+  summary: Render markdown on the CLI, with pizzazz
+  maintainers:
+    - brightone@protonmail.com
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: glow
   visiblename: glow
@@ -772,7 +795,7 @@
   licenses:
     - MIT
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: glow
   binnames:
     - glow
@@ -786,7 +809,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: glow
   binnames:
     - glow
@@ -828,7 +851,7 @@
   binname: glow
   visiblename: textproc/glow
   version: 2.1.2
-  origversion: 2.1.2nb9
+  origversion: 2.1.2nb10
   status: outdated
   summary: Render markdown on the CLI
   maintainers:
@@ -849,20 +872,6 @@
     - otto@debian.org
   categories:
     - utils
-- repo: raspbian_stable
-  subrepo: main
-  srcname: glow
-  binnames:
-    - glow
-  visiblename: glow
-  version: 2.0.0
-  origversion: 2.0.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - otto@debian.org
-  categories:
-    - misc
 - repo: raspbian_testing
   subrepo: main
   srcname: glow
