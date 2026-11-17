@@ -1,14 +1,122 @@
-- repo: arch
-  subrepo: extra
+- repo: chimera
+  subrepo: user
   srcname: glow
+  binname: glow-fishcomp
+  visiblename: glow-fishcomp
+  version: 3.0.0
+  origversion: 3.0.0-r1
+  status: newest
+  summary: Render markdown on the CLI (fish completions)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: glow
+  binname: glow-man
+  visiblename: glow-man
+  version: 3.0.0
+  origversion: 3.0.0-r1
+  status: newest
+  summary: Render markdown on the CLI (manual pages)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: glow
+  binname: glow-zshcomp
+  visiblename: glow-zshcomp
+  version: 3.0.0
+  origversion: 3.0.0-r1
+  status: newest
+  summary: Render markdown on the CLI (zsh completions)
+  licenses:
+    - MIT
+- repo: pkgsrc_2026_3
+  srcname: textproc/glow
+  binname: glow
+  visiblename: textproc/glow
+  version: 2.1.2
+  origversion: 2.1.2nb9
+  status: outdated
+  summary: Render markdown on the CLI
+  maintainers:
+    - sjmulder@netbsd.org
+  categories:
+    - textproc
+- repo: pkgsrc_current
+  srcname: textproc/glow
+  binname: glow
+  visiblename: textproc/glow
+  version: 2.1.2
+  origversion: 2.1.2nb10
+  status: outdated
+  summary: Render markdown on the CLI
+  maintainers:
+    - sjmulder@netbsd.org
+  categories:
+    - textproc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: glow
+  binnames:
+    - glow
+  visiblename: glow
+  version: 2.0.0
+  origversion: 2.0.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - otto@debian.org
+  categories:
+    - utils
+- repo: raspbian_stable
+  subrepo: main
+  srcname: glow
+  binnames:
+    - glow
+  visiblename: glow
+  version: 2.0.0
+  origversion: 2.0.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - otto@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: glow
+  binnames:
+    - glow
+  visiblename: glow
+  version: 2.1.2
+  origversion: 2.1.2-3
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - otto@debian.org
+    - tiago.myhro@gmail.com
+  categories:
+    - misc
+- repo: scoop
+  subrepo: main
   binname: glow
   visiblename: glow
   version: 3.0.0
-  origversion: 3.0.0-2
+  origversion: null
   status: newest
-  summary: Command-line markdown renderer
   licenses:
     - MIT
+- repo: slackbuilds
+  srcname: office/glow
+  visiblename: office/glow
+  version: 3.0.0
+  origversion: null
+  status: newest
+  maintainers:
+    - vijaymarcel@outlook.com
+  categories:
+    - office
 - repo: aerynos
   srcname: glow
   visiblename: glow
@@ -127,6 +235,17 @@
     - fallback-mnt-aosc@repology
   categories:
     - utils
+- repo: arch
+  subrepo: extra
+  srcname: glow
+  binname: glow
+  visiblename: glow
+  version: 3.0.0
+  origversion: 3.0.0-2
+  status: newest
+  summary: Command-line markdown renderer
+  licenses:
+    - MIT
 - repo: aur
   srcname: glow-git
   binname: glow-git
@@ -170,39 +289,6 @@
   origversion: 3.0.0-r1
   status: newest
   summary: Render markdown on the CLI (documentation)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: glow
-  binname: glow-fishcomp
-  visiblename: glow-fishcomp
-  version: 3.0.0
-  origversion: 3.0.0-r1
-  status: newest
-  summary: Render markdown on the CLI (fish completions)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: glow
-  binname: glow-man
-  visiblename: glow-man
-  version: 3.0.0
-  origversion: 3.0.0-r1
-  status: newest
-  summary: Render markdown on the CLI (manual pages)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: glow
-  binname: glow-zshcomp
-  visiblename: glow-zshcomp
-  version: 3.0.0
-  origversion: 3.0.0-r1
-  status: newest
-  summary: Render markdown on the CLI (zsh completions)
   licenses:
     - MIT
 - repo: chocolatey
@@ -360,20 +446,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: glow
-  binnames:
-    - glow
-  visiblename: glow
-  version: 2.1.2
-  origversion: 2.1.2-1.fc42
-  status: outdated
-  summary: Terminal based markdown reader
-  licenses:
-    - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: glow
   binnames:
@@ -387,15 +459,15 @@
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT AND MPL-2.0 AND OFL-1.1
   categories:
     - Unspecified
-- repo: fedora_43
-  subrepo: release
+- repo: fedora_42
+  subrepo: updates
   srcname: glow
   binnames:
     - glow
   visiblename: glow
-  version: 2.1.1
-  origversion: 2.1.1-6.fc43
-  status: legacy
+  version: 2.1.2
+  origversion: 2.1.2-1.fc42
+  status: outdated
   summary: Terminal based markdown reader
   licenses:
     - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
@@ -410,6 +482,20 @@
   version: 2.1.2
   origversion: 2.1.2-1.fc43
   status: outdated
+  summary: Terminal based markdown reader
+  licenses:
+    - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: glow
+  binnames:
+    - glow
+  visiblename: glow
+  version: 2.1.1
+  origversion: 2.1.1-6.fc43
+  status: legacy
   summary: Terminal based markdown reader
   licenses:
     - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
@@ -438,6 +524,20 @@
   version: 2.1.2
   origversion: 2.1.2-1.fc44
   status: outdated
+  summary: Terminal based markdown reader
+  licenses:
+    - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: glow
+  binnames:
+    - glow
+  visiblename: glow
+  version: 3.0.0
+  origversion: 3.0.0-1.fc45
+  status: newest
   summary: Terminal based markdown reader
   licenses:
     - Apache-2.0 AND BSD-3-Clause AND MIT AND OFL-1.1
@@ -484,6 +584,18 @@
     - BSD
   categories:
     - app-misc
+- repo: nix_stable_24_11
+  srcname: glow
+  visiblename: glow
+  version: 2.0.0
+  origversion: null
+  status: outdated
+  summary: Render markdown on the CLI, with pizzazz!
+  maintainers:
+    - brightone@protonmail.com
+    - penguwin@penguwin.eu
+  licenses:
+    - MIT
 - repo: gentoo_ovl_guru
   srcname: app-misc/glow
   visiblename: app-misc/glow
@@ -661,18 +773,6 @@
     - penguwin@penguwin.eu
   licenses:
     - MIT
-- repo: nix_stable_24_11
-  srcname: glow
-  visiblename: glow
-  version: 2.0.0
-  origversion: null
-  status: outdated
-  summary: Render markdown on the CLI, with pizzazz!
-  maintainers:
-    - brightone@protonmail.com
-    - penguwin@penguwin.eu
-  licenses:
-    - MIT
 - repo: nix_stable_25_05
   srcname: glow
   visiblename: glow
@@ -719,18 +819,6 @@
   licenses:
     - MIT
 - repo: opensuse_leap_15_6
-  subrepo: updates/oss
-  srcname: glow
-  visiblename: glow
-  version: 1.5.1
-  origversion: 1.5.1-lp156.2.3.1
-  status: outdated
-  summary: Render markdown on the CLI
-  licenses:
-    - MIT
-  categories:
-    - System/Console
-- repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: glow
   visiblename: glow
@@ -742,15 +830,18 @@
     - MIT
   categories:
     - System/Console
-- repo: wakemeops
-  subrepo: terminal
-  binname: glow
+- repo: opensuse_leap_15_6
+  subrepo: updates/oss
+  srcname: glow
   visiblename: glow
-  version: 3.0.0
-  origversion: 3.0.0-1~ops2deb
-  status: newest
-  maintainers:
-    - ops2deb@upciti.com
+  version: 1.5.1
+  origversion: 1.5.1-lp156.2.3.1
+  status: outdated
+  summary: Render markdown on the CLI
+  licenses:
+    - MIT
+  categories:
+    - System/Console
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: glow
@@ -829,92 +920,6 @@
     - sjmulder@netbsd.org
   categories:
     - textproc
-- repo: pkgsrc_2026_3
-  srcname: textproc/glow
-  binname: glow
-  visiblename: textproc/glow
-  version: 2.1.2
-  origversion: 2.1.2nb9
-  status: outdated
-  summary: Render markdown on the CLI
-  maintainers:
-    - sjmulder@netbsd.org
-  categories:
-    - textproc
-- repo: pkgsrc_current
-  srcname: textproc/glow
-  binname: glow
-  visiblename: textproc/glow
-  version: 2.1.2
-  origversion: 2.1.2nb10
-  status: outdated
-  summary: Render markdown on the CLI
-  maintainers:
-    - sjmulder@netbsd.org
-  categories:
-    - textproc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: glow
-  binnames:
-    - glow
-  visiblename: glow
-  version: 2.0.0
-  origversion: 2.0.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - otto@debian.org
-  categories:
-    - utils
-- repo: raspbian_stable
-  subrepo: main
-  srcname: glow
-  binnames:
-    - glow
-  visiblename: glow
-  version: 2.0.0
-  origversion: 2.0.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - otto@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: glow
-  binnames:
-    - glow
-  visiblename: glow
-  version: 2.1.2
-  origversion: 2.1.2-3
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - otto@debian.org
-    - tiago.myhro@gmail.com
-  categories:
-    - misc
-- repo: scoop
-  subrepo: main
-  binname: glow
-  visiblename: glow
-  version: 3.0.0
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: slackbuilds
-  srcname: office/glow
-  visiblename: office/glow
-  version: 3.0.0
-  origversion: null
-  status: newest
-  maintainers:
-    - vijaymarcel@outlook.com
-  categories:
-    - office
 - repo: solus
   srcname: glow
   binname: glow
@@ -1096,6 +1101,15 @@
     - josh@klar.sh
   licenses:
     - MIT
+- repo: wakemeops
+  subrepo: terminal
+  binname: glow
+  visiblename: glow
+  version: 3.0.0
+  origversion: 3.0.0-1~ops2deb
+  status: newest
+  maintainers:
+    - ops2deb@upciti.com
 - repo: wakemeops
   subrepo: terminal
   binname: glow
