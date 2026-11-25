@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 28,164 · **Forks**: 825 · **Open issues**: 408 · **Contributors**: 53
+- **Stars**: 28,182 · **Forks**: 826 · **Open issues**: 408 · **Contributors**: 53
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 9 | 0 | 5 | 0 |
-| last60d | 2026-09-25 | 0 | 1 | 26 | 1 | 13 | 1 |
-| 90d | 2026-08-26 | 0 | 3 | 36 | 1 | 20 | 3 |
-| last180d | 2026-05-28 | 1 | 10 | 54 | 5 | 35 | 10 |
-| 360d | 2025-11-29 | 2 | 14 | 84 | 11 | 57 | 15 |
-| last720d | 2024-12-04 | 4 | 92 | 95 | 31 | 108 | 110 |
+| 30d | 2026-10-26 | 0 | 0 | 9 | 0 | 3 | 0 |
+| last60d | 2026-09-26 | 0 | 1 | 26 | 1 | 13 | 1 |
+| 90d | 2026-08-27 | 0 | 3 | 35 | 1 | 19 | 3 |
+| last180d | 2026-05-29 | 1 | 10 | 54 | 5 | 35 | 10 |
+| 360d | 2025-11-30 | 2 | 14 | 84 | 11 | 57 | 15 |
+| last720d | 2024-12-05 | 4 | 92 | 95 | 31 | 108 | 110 |
 
 ## Release assets
 
@@ -124,24 +124,6 @@ Lowest-scoring checks:
 | [glow_3.0.0_x86.apk](https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_x86.apk) | 6.4 MiB | `other` |
 | [glow_3.0.0_x86_64.apk](https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_x86_64.apk) | 6.8 MiB | `other` |
 
-## Distribution status
-
-Reported by **91** distros on [repology.org](https://repology.org/project/glow). **42** are ✅ on the latest upstream release, **37** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.1.2` | ⚠️ outdated |
-| Debian 14 | `2.1.2` | ⚠️ outdated |
-| Debian 13 | `2.0.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.1.1` | ⚠️ outdated |
-| Arch | `3.0.0` | ✅ latest |
-| Homebrew | `3.0.0` | ✅ latest |
-| Fedora rawhide | `3.0.0` | ✅ latest |
-| Nix unstable | `3.0.0` | ✅ latest |
-| Void | `3.0.0` | ✅ latest |
-| Alpine edge | `3.0.0` | ✅ latest |
-| openSUSE Tumbleweed | `3.0.0` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for glow lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `glow` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -151,4 +133,4 @@ Install metadata for glow lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:25:43Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:19:16Z._
