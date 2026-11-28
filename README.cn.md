@@ -46,22 +46,22 @@ x install glow
 
 ## 流行度
 
-- **Star**: 28,214 · **Fork**: 829 · **开放 issue**: 409 · **贡献者**: 53
+- **Star**: 28,232 · **Fork**: 829 · **开放 issue**: 409 · **贡献者**: 53
 
 ## 累计统计
 
-- **发布数**: 24 · **已合并 PR**: 275 · **开放 PR**: 97 · **已关闭 issue**: 233 · **开放 issue**: 176 · **提交数**: 876
+- **发布数**: 24 · **已合并 PR**: 275 · **开放 PR**: 98 · **已关闭 issue**: 233 · **开放 issue**: 176 · **提交数**: 876
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 0 | 8 | 0 | 4 | 0 |
-| last60d | 2026-09-28 | 0 | 1 | 27 | 1 | 14 | 1 |
-| 90d | 2026-08-29 | 0 | 3 | 36 | 1 | 20 | 3 |
-| last180d | 2026-05-31 | 1 | 10 | 54 | 5 | 35 | 10 |
-| 360d | 2025-12-02 | 2 | 14 | 85 | 11 | 58 | 15 |
-| last720d | 2024-12-07 | 4 | 92 | 96 | 31 | 109 | 110 |
+| 30d | 2026-10-29 | 0 | 0 | 9 | 0 | 4 | 0 |
+| last60d | 2026-09-29 | 0 | 1 | 28 | 1 | 14 | 1 |
+| 90d | 2026-08-30 | 0 | 3 | 37 | 1 | 19 | 3 |
+| last180d | 2026-06-01 | 1 | 10 | 54 | 5 | 34 | 10 |
+| 360d | 2025-12-03 | 2 | 14 | 86 | 11 | 58 | 15 |
+| last720d | 2024-12-08 | 4 | 92 | 97 | 31 | 109 | 110 |
 
 ## Release 资产
 
@@ -124,24 +124,6 @@ x install glow
 | [glow_3.0.0_x86.apk](https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_x86.apk) | 6.4 MiB | `other` |
 | [glow_3.0.0_x86_64.apk](https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow_3.0.0_x86_64.apk) | 6.8 MiB | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/glow) 上共有 **91** 个发行版报告此项目。**44** 个 ✅ 已是最新上游版本，**35** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `3.0.0` | ✅ latest |
-| Debian 14 | `2.1.2` | ⚠️ outdated |
-| Debian 13 | `2.0.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.1.1` | ⚠️ outdated |
-| Arch | `3.0.0` | ✅ latest |
-| Homebrew | `3.0.0` | ✅ latest |
-| Fedora rawhide | `3.0.0` | ✅ latest |
-| Nix unstable | `3.0.0` | ✅ latest |
-| Void | `3.0.0` | ✅ latest |
-| Alpine edge | `3.0.0` | ✅ latest |
-| openSUSE Tumbleweed | `3.0.0` | ✅ latest |
-
 ## 改进这些数据
 
 glow 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `glow` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -151,4 +133,4 @@ glow 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261127.yml` · 2026-11-27T09:21:53Z._
+_数据快照: `data/card/261128.yml` · 2026-11-28T09:09:59Z._
